@@ -1,11 +1,16 @@
 {
-  "name": "package.json",
+  "name": "login-signup-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "*.js",
+  "description": "Simple and responsive login and signup system implemented using HTML, CSS, and JavaScript",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamzayawa/login-signup-system.git"
+  },
+  "keywords": ["node", "javascript", "web", "express"],
   "author": "Hamza Abdullahi",
   "license": "MIT"
 }
