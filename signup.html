@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="register-container">
+            <div class="or-text">
+                <span></span>
+                <span><h2 class="primary">Signup</h2></span>
+                <span></span>
+            </div>
+            
+            <form autocomplete="off" id="register-form">
+                <div class="form-control">
+                    <input type="text" id="firstname" required="">
+                    <label>
+                        <span style="transition-delay:0ms">F</span>
+                        <span style="transition-delay:50ms">i</span>
+                        <span style="transition-delay:100ms">r</span>
+                        <span style="transition-delay:150ms">s</span>
+                        <span style="transition-delay:200ms">t</span>
+                        <span style="transition-delay:250ms">N</span>
+                        <span style="transition-delay:300ms">a</span>
+                        <span style="transition-delay:350ms">m</span>
+                        <span style="transition-delay:400ms">e</span>
+                    </label>
+                    <span id="firstnameFeedback"></span>
+                </div>
+                <div class="form-control">
+                    <input type="text" id="lastname" required="">
+                    <label>
+                        <span style="transition-delay:0ms">L</span>
+                        <span style="transition-delay:50ms">a</span>
+                        <span style="transition-delay:100ms">s</span>
+                        <span style="transition-delay:200ms">t</span>
+                        <span style="transition-delay:250ms">N</span>
+                        <span style="transition-delay:300ms">a</span>
+                        <span style="transition-delay:350ms">m</span>
+                        <span style="transition-delay:400ms">e</span>
+                    </label>
+                    <span id="lastnameFeedback"></span>
+                </div>
+                <div class="form-control">
+                    <input type="text" id="username" required="">
+                    <label>
+                        <span style="transition-delay:0ms">U</span>
+                        <span style="transition-delay:50ms">s</span>
+                        <span style="transition-delay:100ms">e</span>
+                        <span style="transition-delay:150ms">r</span>
+                        <span style="transition-delay:200ms">N</span>
+                        <span style="transition-delay:250ms">a</span>
+                        <span style="transition-delay:300ms">m</span>
+                        <span style="transition-delay:350ms">e</span>
+                    </label>
+                    <span id="usernameFeedback"></span>
+                </div>
+                <div class="form-control">
+                    <input type="text" id="email" required="">
+                    <label>
+                        <span style="transition-delay:0ms">E</span>
+                        <span style="transition-delay:50ms">m</span>
+                        <span style="transition-delay:100ms">a</span>
+                        <span style="transition-delay:150ms">i</span>
+                        <span style="transition-delay:200ms">l</span>
+                    </label>
+                    <span id="emailFeedback"></span>
+                </div>
+                <div class="form-control">
+                    <input type="password" id="password" required="">
+                    <label>
+                        <span style="transition-delay:0ms">P</span>
+                        <span style="transition-delay:50ms">a</span>
+                        <span style="transition-delay:100ms">s</span>
+                        <span style="transition-delay:150ms">s</span>
+                        <span style="transition-delay:200ms">w</span>
+                        <span style="transition-delay:250ms">o</span>
+                        <span style="transition-delay:300ms">r</span>
+                        <span style="transition-delay:400ms">d</span>
+                    </label>
+                    <button type="button" id="togglePassword" class="showhide">Show</button>
+                    <span id="passwordFeedback"></span>
+                </div>
+                <div class="form-control">
+                    <input type="password" id="confirmPassword" required="">
+                    <label>
+                        <span style="transition-delay:0ms">C</span>
+                        <span style="transition-delay:50ms">o</span>
+                        <span style="transition-delay:100ms">n</span>
+                        <span style="transition-delay:150ms">f</span>
+                        <span style="transition-delay:200ms">i</span>
+                        <span style="transition-delay:250ms">r</span>
+                        <span style="transition-delay:300ms">m</span>
+                        <span style="transition-delay:350ms">&nbsp;</span>
+                        <span style="transition-delay:400ms">P</span>
+                        <span style="transition-delay:450ms">a</span>
+                        <span style="transition-delay:500ms">s</span>
+                        <span style="transition-delay:550ms">s</span>
+                        <span style="transition-delay:600ms">w</span>
+                        <span style="transition-delay:650ms">o</span>
+                        <span style="transition-delay:700ms">r</span>
+                        <span style="transition-delay:750ms">d</span>
+                    </label>
+                    <button type="button" id="toggleConfirmPassword" class="showhide">Show</button>
+                    <span id="confirmPasswordFeedback"></span>
+                </div>
+                <button class="button" id="registerButton"> Signup </button>
+            </form>   
+            <div class="or-text">
+                <span></span>
+                <span>OR</span>
+                <span></span>
+            </div>
+            <p>Have an account? <a href="/login.html"><b>Login</b></a></p>
+        </div>
+    </div>
+    <script src="js/register.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

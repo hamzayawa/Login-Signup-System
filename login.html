@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="or-text">
+                <span></span>
+                <span><h2 class="primary">Login</h2></span>
+                <span></span>
+            </div>
+            
+            <form autocomplete="off">
+                <div class="form-control">
+                    <input type="text" id="username" required="">
+                    <label>
+                        <span style="transition-delay:0ms">U</span>
+                        <span style="transition-delay:50ms">s</span>
+                        <span style="transition-delay:100ms">e</span>
+                        <span style="transition-delay:150ms">r</span>
+                        <span style="transition-delay:200ms">n</span>
+                        <span style="transition-delay:250ms">a</span>
+                        <span style="transition-delay:300ms">m</span>
+                        <span style="transition-delay:350ms">e</span>
+                    </label>
+                </div>
+                
+                <div class="form-control">
+                    <input type="password" id="password" required="">
+                    <label>
+                        <span style="transition-delay:0ms">P</span>
+                        <span style="transition-delay:50ms">a</span>
+                        <span style="transition-delay:100ms">s</span>
+                        <span style="transition-delay:150ms">s</span>
+                        <span style="transition-delay:200ms">w</span>
+                        <span style="transition-delay:250ms">o</span>
+                        <span style="transition-delay:300ms">r</span>
+                        <span style="transition-delay:350ms">d</span>
+                    </label>
+                    <button type="button" id="togglePassword" class="showhide">Show</button>
+                </div>
+                <button class="button" id="loginButton"> Login </button>
+            </form>   
+            <div class="or-text">
+                <span></span>
+                <span>OR</span>
+                <span></span>
+            </div>
+            <p>Don't have an account? <a href="/signup.html"><b>Register</b></a></p>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
