@@ -10,6 +10,9 @@
       "license": "MIT"
     }
   },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },  
   "devDependencies": {
     "csslint": "^1.0.5",
     "eslint": "^8.56.0",
