@@ -4,4 +4,7 @@ module.exports = {
     rules: {
       // Add your custom rules here
     },
+    env: {
+        node: true
+      }
   };  
