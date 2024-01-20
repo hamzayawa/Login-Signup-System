@@ -2,23 +2,32 @@ name: HTML-CSS-JS CI Pipeline
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
+# This will define the jobs that will run in your pipeline
 jobs:
   build:
+    # This will run the job on a Linux machine
     runs-on: ubuntu-latest
 
+    # This will define the steps that will run in the job
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      # This will check out your code from the repository
+      - uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: npm install
+      # This will install Node.js on the machine
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-    - name: Lint HTML
-      run: npx htmlhint "**/*.html"
+      # This will install your dependencies using npm
+      - name: Install dependencies
+        run: npm install
 
-    - name: Lint CSS and JavaScript
-      run: |
-        npx eslint --ext .js,.css .
+      # This will run your tests using npm
+      - name: Run tests
+        run: npm test
+
+      # This will build your code using npm
+      - name: Build code
+        run: npm run build
