@@ -12,6 +12,8 @@
   },
   "devDependencies": {
     "csslint": "^1.0.5",
+    "eslint": "^8.56.0",
+    "eslint-plugin-css": "^0.9.1",
     "stylelint-config-standard": "^36.0.0"
   }
 }

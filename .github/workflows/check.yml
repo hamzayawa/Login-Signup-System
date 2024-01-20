@@ -19,8 +19,6 @@ jobs:
     - name: Lint HTML
       run: npx htmlhint "**/*.html"
 
-    - name: Lint CSS
-      run: npx csslint "**/*.css"
-
-    - name: Lint JavaScript
-      run: npx eslint "**/*.js"
+    - name: Lint CSS and JavaScript
+      run: |
+        npx eslint --ext .js,.css .
