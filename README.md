@@ -1,4 +1,5 @@
 # Login and Signup System
+[![HTML-CSS-JS CI Pipeline](https://github.com/hamzayawa/Login-Signup-System/actions/workflows/check.yml/badge.svg)](https://github.com/hamzayawa/Login-Signup-System/actions/workflows/check.yml)
 
 A simple login and signup system built using HTML, CSS, and JavaScript.
 
