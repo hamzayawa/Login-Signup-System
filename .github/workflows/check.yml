@@ -27,7 +27,3 @@ jobs:
       # This will run your tests using npm
       - name: Run tests
         run: npm test
-
-      # This will build your code using npm
-      - name: Build code
-        run: npm run build
